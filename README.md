@@ -25,4 +25,4 @@ redis默认端口为：`63790`
 docker-compose up --build -d #构建并后台执行
 ```
 
-启动后访问`http://localhost（当前docker服务器ip）:8080`即可
+启动后访问`http://localhost（当前docker服务器ip）:8088`即可
