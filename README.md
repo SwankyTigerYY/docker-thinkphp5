@@ -13,7 +13,7 @@ services                 包含相关服务配置，如mysql、nginx、redis等�
 
 mysql默认端口为：`33060`
 
-nginx默认端口为：`8080`
+nginx默认端口为：`8088`
 
 redis默认端口为：`63790`
 
