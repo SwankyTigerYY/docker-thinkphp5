@@ -100,8 +100,8 @@ RUN apt-get update \
 
 
 # 安装swoole扩展
-RUN apt install -y nghttp2 openssl libssl-dev libpcre3-dev \
-	&& pecl install swoole
+# RUN apt install -y nghttp2 openssl libssl-dev libpcre3-dev \
+	#&& pecl install swoole
 
 # 安装redis扩展
 COPY ./ext/redis-4.1.0.tgz /tmp/redis.tgz
